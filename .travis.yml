@@ -1,6 +1,6 @@
 language: cpp
 
-compliler: gcc
+compliler: clang
 
 
 script:
