@@ -4,10 +4,10 @@ compliler: gcc
 
 
 script:
+  - rm -rf build
   - mkdir build
-  - cmake CMakeLists.txt
-  - make
-#  - pwd && make test
+  - cd build && cmake..
+  - cd build && make
 
 
 
