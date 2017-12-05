@@ -6,7 +6,7 @@ compliler: gcc
 script:
   - rm -rf build
   - mkdir build
-  - cd build && cmake..
+  - pwd && cmake..
   - cd build && make
 
 
