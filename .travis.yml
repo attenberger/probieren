@@ -4,10 +4,10 @@ compliler: gcc
 
 
 script:
-  - rm -rf build
-  - mkdir build
-  - cmake .
-  - cd build && make ..
+  - md build
+  - cd build
+  - cmake ..
+  - make
 
 
 
